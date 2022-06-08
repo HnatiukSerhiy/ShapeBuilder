@@ -1,0 +1,157 @@
+.app {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 40px;
+}
+
+.form-container {
+    border: 5px solid #D6C099;
+    border-radius: 10px;
+    padding: 20px 30px;
+    margin-bottom: 50px;
+}
+
+.form-container form {
+    font-size: 17px;
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.shape-name {
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.shape-name select {
+    border-radius: 10px;
+    padding: 2px 5px;
+    font-size: 17px;
+}
+
+input[type="number"] {
+    width: 40px;
+}
+
+.square-length-container {
+    width: 260px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.rectangle-params {
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.rectangle-params div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.triangle-params {
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.triangle-params div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.circle-params {
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.circle-params div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.draw-btn {
+    border: none;
+    border-radius: 10px;
+    padding: 7px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #AE8781;
+}
+
+.square-container {
+    margin-bottom: 50px;
+}
+
+.square-shape-board {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description {
+    width: 500px;
+    border-top: 5px solid #D6CEC0;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.rectangle-container {
+    margin-bottom: 50px;
+}
+
+.rectangle-shape-board {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle-container {
+    margin-bottom: 50px;
+}
+
+.circle-shape-board {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.triangle-container {
+    margin-bottom: 50px;
+}
+
+.triangle-shape-board {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.red {
+    color: red;
+}

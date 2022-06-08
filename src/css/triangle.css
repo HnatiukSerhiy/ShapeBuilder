@@ -1,0 +1,90 @@
+.first-side, .second-side, .third-side {
+    height: 5px;
+    background-color: #8E8A92;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.first-side {
+    width: 57%;
+    transform-origin: bottom right;
+    right: 5px;
+    bottom: 0;
+    transform: rotate(90deg);
+}
+
+.second-side {
+    width: 113%;
+    left:5px;
+    bottom: 0;
+    transform-origin: bottom left;
+    transform: rotate(-30deg);
+}
+
+.third-side {
+    width: 100%;
+    bottom: 0;
+}
+
+.triangle {
+    height:201px;
+    width:350px;
+    position: relative;
+}
+
+.first-angle {
+    padding-top: 2px;
+    padding-left: 2px;
+    z-index: -1;
+    border: 3px solid #8E8A92;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 15px;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.second-angle {
+    position: absolute;
+    bottom: 5px;
+    left: 45px;
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.third-angle {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.first-side-value {
+    position: absolute;
+    top: 50%;
+    right: -15px;
+}
+
+.second-side-value {
+    position: absolute;
+    top: 35%;
+    left: 45%;
+}
+
+.third-side-value {
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+}

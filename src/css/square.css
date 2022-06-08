@@ -1,0 +1,25 @@
+.square {
+    width: 260px;
+    height: 260px;
+    border:5px solid #8E8A92;
+    position: relative;
+}
+
+.square-length {
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+}
+
+.square-angle {
+    z-index: -1;
+    border: 3px solid #8E8A92;
+    position: absolute;
+    bottom: -5px;
+    left: -5px;
+    font-size: 15px;
+    width: 30px;
+    height: 28px;
+    display: flex;
+    justify-content: flex-end;
+}
